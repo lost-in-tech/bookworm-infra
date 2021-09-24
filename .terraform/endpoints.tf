@@ -45,6 +45,6 @@ POLICY
   tags = {
     Group = var.group
     Env   = var.env
-    Name  = "endpoint-s3-${var.group}-${var.env}"
+    Name  = "endpoint-dynamodb-${var.group}-${var.env}"
   }
 }
